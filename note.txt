@@ -1,0 +1,38 @@
+why bootstraps: 
+    saves times.
+    responsive features.
+    consistent design.
+    easy to use.
+    compatible with browser.
+    open source.
+     
+
+Breakpoints:
+Breakpoint	Class infix	Dimensions
+X-Small	               <       576px
+Small	             sm	 ≥       576px
+Medium	           md	 ≥       768px
+Large	             lg	 ≥       992px
+Extra large	       xl	 ≥       1200px
+Extra extra large  xxl ≥       1400px
+
+without responsive 
+  <!-- offset:(margin-left) -->
+with responsive
+<!-- class="col-4 col-sm-4 offset-sm-1 col-md-10 offset-md-2 box-1" box 1 --!>
+
+Reordering:
+  switch the divs according to the screen size.
+    order-first | order-last | with screen size|
+    order-0 -order-5 |
+    ex: 
+
+  
+  
+    echo "# Bootstraps_5" >> README.md
+git init
+git add  . 
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/0tohero99/Bootstraps_5.git
+git push -u origin main

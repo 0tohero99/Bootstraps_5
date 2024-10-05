@@ -27,12 +27,35 @@ Reordering:
     order-0 -order-5 |
     ex: 
 
-  
-  
-    echo "# Bootstraps_5" >> README.md
-git init
-git add  . 
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/0tohero99/Bootstraps_5.git
-git push -u origin main
+Margins:|
+<!-- 
+margins with all sides|
+   [style (mt-sm-3)can also be given with the screen size|
+    margins with all sides|
+    try px to rem calculator|
+        no. b/w 0-5 rem|
+        margin-left:ms-(0-5)|
+        margin-right:me-(0-5)|
+        margin-top:mt-(0-5)|
+        margin-bottom:mb-(0-5)|]
+
+  margin:auto|m-auto|
+  left & right equal center |mx-auto| 
+  float:right{ms(margin start): auto}
+  gap b/w two divs {me(margin end)}:auto|
+  NOTE: style can also be given with screen size|
+-->
+padding:|
+  <!-- padding: by default it takes 15px through left right when paddingss is given it removes the default one .-->
+    <!-- 
+       [style can be given with the screen size. |
+        padding b/w (0 -5 i.e. 0px-3rems or 48px)|
+        padding :p (all sides)|
+        padding-left:ps "" |
+        padding-right:pe "" |
+        padding-top:pt "" |
+        padding-bottom:pb "" |]
+        py-padding-vertical|
+        px-padding-horizontal|
+
+     -->

@@ -6,7 +6,7 @@ why bootstraps:
     compatible with browser.
     open source.
      
-
+807483
 Breakpoints:
 Breakpoint	Class infix	Dimensions
 X-Small	               <       576px
@@ -59,3 +59,23 @@ padding:|
         px-padding-horizontal|
 
      -->
+
+     horizontal alignmentss: 
+     ⏭try it on row class.|
+     ⏭justify-content:
+      end (right)|start (left)default |center|between|around|evenly|
+     ⏭ justify-content-xl-start|justify-content-lg-start|etc.
+
+     align-items(vertically) :
+     ⏭ start(tops)|end(bottoms)|center(center)|streach(bydefault)|baseline(text will be from left)|
+     ⏭ align-items-lg-baseline
+
+     align-content(vertically):
+     start(tops)|end(bottoms)|center(center)|between|around|streach(bydefault)| 
+     ⏭ Note:give height to container|   
+     ⏭ align-content-md-center| 
+    
+    align-self:
+    ⏭ start(tops)|end(bottoms)|center(center)|baseline|streach(bydefault)|align-self-md-center| 
+    ⏭ Note:align-self works with heights so give height to row(or pirents)|
+   

@@ -79,3 +79,25 @@ padding:|
     ⏭ start(tops)|end(bottoms)|center(center)|baseline|streach(bydefault)|align-self-md-center| 
     ⏭ Note:align-self works with heights so give height to row(or pirents)|
    
+   flex-directions:
+   ⏭ flex-row(bydefault)|flex-row-reverse| flex-column| flex-column-reverse|flex-wrap(bydefault)|flex-nowrap|flex-wrap-reverse|
+   ⏭ flex-lg-row|
+   ⏭  Note:row bydefault follow flex-row.|
+
+   flex-fill :works with col class|
+   ⏭ flex-lg-fill
+   ⏭ Note: use col class on all divs before using flex-fill 
+
+    display classses:
+    ⏭ d-none |d-inline|d-block|d-inline-block|
+     d-lg-inline|etc.|
+    ⏬ for table |
+    ⏭ d-table|d-table-cell|d-table-row|
+     d-lg-table etc.|
+    ⏭ d-grid|d-flex|d-inline-flex|
+     d-lg-grid etc.|
+    ⏭ d-print-none|d-print-inline|d-print-inline-block| d-print-block|
+       ⏭ it can be used to hide thw adds while (ctrl+p ) printing. try after going to given screen. -->
+
+    ⏭ d-print-table|d-print-table-cell|d-print-table-row|
+     d-print-flex|d-print-inline-flex|

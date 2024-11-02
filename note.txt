@@ -101,3 +101,13 @@ padding:|
 
     ⏭ d-print-table|d-print-table-cell|d-print-table-row|
      d-print-flex|d-print-inline-flex|
+
+    float :
+    float:start(left)|float:end(right)|none|
+    clearfix :wraps to divs.|
+    width:w:25|w:50|w:75|w:100|mw-100|w-auto|
+    height:h:25|h:50|h:75|h:100|mh-100|h-auto|
+    viewport-height:vh-100|min-vh-100|
+    viewport-width:vw-100|min-vw-100|
+
+    
